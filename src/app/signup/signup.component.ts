@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
+import { NavbarComponent } from '@app/navbar/navbar.component';
 
 @Component({
-  selector: 'app-signup',
-  standalone: true,
-  imports: [],
-  templateUrl: './signup.component.html',
-  styleUrl: './signup.component.css'
+    selector: 'app-signup',
+    standalone: true,
+    imports: [NavbarComponent],
+    templateUrl: './signup.component.html',
+    styleUrl: './signup.component.css',
 })
-export class SignupComponent {
-
-}
+export class SignupComponent {}
